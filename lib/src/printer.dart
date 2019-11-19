@@ -96,7 +96,6 @@ class Printer {
 
     _socket.write(styles.bold ? cBoldOn : cBoldOff);
     _socket.write(styles.turn90 ? cTurn90On : cTurn90Off);
-    _socket.write(styles.reverse ? cReverseOn : cReverseOff);
     _socket.write(styles.underline ? cUnderline1dot : cUnderlineOff);
     _socket.write(styles.fontType == PosFontType.fontA ? cFontA : cFontB);
     // Text size
