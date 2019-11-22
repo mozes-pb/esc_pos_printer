@@ -98,6 +98,8 @@ class Printer {
 //    _socket.write(styles.turn90 ? cTurn90On : cTurn90Off);
     _socket.write(styles.underline ? cUnderline1dot : cUnderlineOff);
     // _socket.write(styles.fontType == PosFontType.fontA ? cFontA : cFontB);
+    _socket.write(styles.doubleWidth ? cDoubleWidthOn : cDoubleWidthOff);
+
     // Text size
     _socket.add(
       Uint8List.fromList(

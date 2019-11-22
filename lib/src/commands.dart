@@ -36,6 +36,9 @@ const cCodeTable = '${esc}t'; // Select character code table [N]
 const cKanjiOn = '$fs&'; // Select Kanji character mode
 const cKanjiOff = '$fs.'; // Cancel Kanji character mode
 
+const cDoubleWidthOn = '${esc}!32'; // Turn double width mode on
+const cDoubleWidthOff = '${esc}!0'; // Turn double width mode off
+
 // Print Position
 const cAlignLeft = '${esc}a0'; // Left justification
 const cAlignCenter = '${esc}a1'; // Centered

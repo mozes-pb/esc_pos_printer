@@ -15,6 +15,7 @@ class PosStyles {
     this.reverse = false,
     this.underline = false,
     this.turn90 = false,
+    this.doubleWidth = false,
     this.align = PosTextAlign.left,
     this.height = PosTextSize.size1,
     this.width = PosTextSize.size1,
@@ -26,6 +27,7 @@ class PosStyles {
   final bool reverse;
   final bool underline;
   final bool turn90;
+  final bool doubleWidth;
   final PosTextAlign align;
   final PosTextSize height;
   final PosTextSize width;
